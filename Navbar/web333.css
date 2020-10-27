@@ -1,0 +1,68 @@
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+.main{
+    background:aqua;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    font-size: 60px;
+    color: #1d3557;
+  }
+  .logo-text{
+    font-size: 30px;
+    margin-left: 10px;
+      
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li 
+  {
+    float: left;
+    padding:5px 20px;
+    border:thin #fff;
+  }
+  li a {
+    display:list-item;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border:1px #F9F5BD transparent;
+    transition:0.8s ease;
+    font-size:large;
+  }
+  .main li a:hover
+  {
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:black;
+	margin-top:14px;
+	margin-left:15px;
+}
+
+
+  /*l{
+  margin: 6px;
+  list-style: none;
+  box-shadow: rgb(72, 82, 72) 2px 4px;
+  background-color: rgb(168, 194, 209);
+  justify-content: space-between;
+  display: flex;
+  line-height: 30px;
+  
+}
+li{
+  height: 3px;
+  margin: 12px  12px;
+  border-right: 4px solid rebeccapurple;*/
