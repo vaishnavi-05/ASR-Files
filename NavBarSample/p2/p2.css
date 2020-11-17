@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+        background-image: url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+/*--------------header--------------------*/
+header{
+    position: fixed;
+    background:#050505 ;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+/*-------------left area-------------------*/
+.left_area h3{
+    color: white;
+    margin: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.left_area span{
+    color: chartreuse;
+}
+ /*--------------left area (button)--------------------*/
+.logout{
+    padding: 5px;
+    background-color: rgb(112, 136, 136);
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right:40px;
+    border-radius: 7px;
+    font-size: 15px;
+    color:white;
+    transition:0.5s;
+}
+.logout:hover{background: royalblue;}
+
+/*--------------images--------------------*/
+.jpg{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+      border-radius: 70px;
+      text-align: center;
+      float: center;
+}
+
+
+
+/*---------------sidebar--------*/
+.sidebar{
+    background: rgb(12, 44, 59);
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition:0.5s;
+    transition-property: left;
+}
+
+.sidebar h4{
+    color:#fff ;
+}
+
+.sidebar a{
+    color:#fff ;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.sidebar a:hover{
+    background: turquoise;
+    transition:0.5s;
+}
+
+.sidebar i{
+    padding-right: 10px;
+}
+
+label #sidebar_btn{
+    z-index: 1;
+    color: thistle;
+    position:fixed;
+    cursor: pointer;
+    left:300px;
+    margin: 5px 0;
+}
+label #sidebar_btn:hover{
+    color: rebeccapurpl}
+
+    #check:checked ~ .sidebar
+    {
+        left:-190px;
+    }
+    #check:checked ~ .sidebar a span{
+        display: none;
+    }
+    #check:checked ~ .sidebar a{
+        font-size: 20px;
+        margin-left: 160px;
+        width: 80px;
+    }
+    
